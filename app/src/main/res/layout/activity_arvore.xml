@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.yurif.estruturadedados_animacoes.ArvoreActivity">
+
+    <android.support.constraint.ConstraintLayout
+        android:id="@+id/constraintLayout"
+        android:layout_width="0dp"
+        android:layout_height="40dp"
+        android:background="@color/colorPrimaryDark"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <TextView
+            android:id="@+id/textLista"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="24dp"
+            android:textColor="@android:color/background_light"
+            android:textSize="14sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+    </android.support.constraint.ConstraintLayout>
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toTopOf="@+id/constraintLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/f4"
+            android:layout_width="53dp"
+            android:layout_height="50dp"
+            android:background="@drawable/circulo"
+            android:backgroundTint="@color/colorPrimaryDark"
+            android:gravity="center_vertical"
+            android:textAlignment="center"
+            android:textColor="@color/colorVazio"
+            app:layout_constraintStart_toEndOf="@+id/seta5"
+            app:layout_constraintTop_toBottomOf="@+id/seta5" />
+
+        <ImageView
+            android:id="@+id/seta5"
+            android:layout_width="30dp"
+            android:layout_height="40dp"
+            android:rotation="45"
+            app:layout_constraintStart_toEndOf="@+id/n2"
+            app:layout_constraintTop_toBottomOf="@+id/n2"
+            app:srcCompat="@drawable/ic_arrow_forward_black_24dp" />
+
+        <TextView
+            android:id="@+id/f3"
+            android:layout_width="53dp"
+            android:layout_height="50dp"
+            android:background="@drawable/circulo"
+            android:backgroundTint="@color/colorPrimaryDark"
+            android:gravity="center_vertical"
+            android:textAlignment="center"
+            android:textColor="@color/colorVazio"
+            app:layout_constraintEnd_toStartOf="@+id/seta4"
+            app:layout_constraintTop_toBottomOf="@+id/seta4" />
+
+        <ImageView
+            android:id="@+id/seta4"
+            android:layout_width="30dp"
+            android:layout_height="40dp"
+            android:rotation="135"
+            app:layout_constraintEnd_toStartOf="@+id/n2"
+            app:layout_constraintTop_toBottomOf="@+id/n2"
+            app:srcCompat="@drawable/ic_arrow_forward_black_24dp" />
+
+        <ImageView
+            android:id="@+id/seta3"
+            android:layout_width="30dp"
+            android:layout_height="40dp"
+            android:rotation="45"
+            app:layout_constraintStart_toEndOf="@+id/n1"
+            app:layout_constraintTop_toBottomOf="@+id/n1"
+            app:srcCompat="@drawable/ic_arrow_forward_black_24dp" />
+
+        <TextView
+            android:id="@+id/f2"
+            android:layout_width="53dp"
+            android:layout_height="50dp"
+            android:background="@drawable/circulo"
+            android:backgroundTint="@color/colorPrimaryDark"
+            android:gravity="center_vertical"
+            android:textAlignment="center"
+            android:textColor="@color/colorVazio"
+            app:layout_constraintStart_toEndOf="@+id/seta3"
+            app:layout_constraintTop_toBottomOf="@+id/seta3" />
+
+        <TextView
+            android:id="@+id/f1"
+            android:layout_width="53dp"
+            android:layout_height="50dp"
+            android:background="@drawable/circulo"
+            android:backgroundTint="@color/colorPrimaryDark"
+            android:gravity="center_vertical"
+            android:textAlignment="center"
+            android:textColor="@color/colorVazio"
+            app:layout_constraintEnd_toStartOf="@+id/seta2"
+            app:layout_constraintTop_toBottomOf="@+id/seta2" />
+
+        <ImageView
+            android:id="@+id/seta2"
+            android:layout_width="30dp"
+            android:layout_height="40dp"
+            android:rotation="135"
+            app:layout_constraintEnd_toStartOf="@+id/n1"
+            app:layout_constraintTop_toBottomOf="@+id/n1"
+            app:srcCompat="@drawable/ic_arrow_forward_black_24dp" />
+
+        <TextView
+            android:id="@+id/n2"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="16dp"
+            android:background="@drawable/circulo"
+            android:backgroundTint="@color/colorPrimaryDark"
+            android:gravity="center_vertical"
+            android:textAlignment="center"
+            android:textColor="@color/colorVazio"
+            app:layout_constraintStart_toEndOf="@+id/seta1"
+            app:layout_constraintTop_toBottomOf="@+id/seta1" />
+
+        <ImageView
+            android:id="@+id/seta0"
+            android:layout_width="30dp"
+            android:layout_height="40dp"
+            android:layout_marginEnd="24dp"
+            android:rotation="140"
+            app:layout_constraintEnd_toStartOf="@+id/raiz"
+            app:layout_constraintTop_toBottomOf="@+id/raiz"
+            app:srcCompat="@drawable/ic_arrow_forward_black_24dp" />
+
+        <TextView
+            android:id="@+id/raiz"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/circulo"
+            android:backgroundTint="@color/colorPrimaryDark"
+            android:gravity="center_vertical"
+            android:text="RAIZ"
+            android:textAlignment="center"
+            android:textColor="@color/colorVazio"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/n1"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginEnd="16dp"
+            android:background="@drawable/circulo"
+            android:backgroundTint="@color/colorPrimaryDark"
+            android:gravity="center_vertical"
+            android:textAlignment="center"
+            android:textColor="@color/colorVazio"
+            app:layout_constraintEnd_toStartOf="@+id/seta0"
+            app:layout_constraintTop_toBottomOf="@+id/seta0" />
+
+        <ImageView
+            android:id="@+id/seta1"
+            android:layout_width="30dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="24dp"
+            android:rotation="40"
+            app:layout_constraintStart_toEndOf="@+id/raiz"
+            app:layout_constraintTop_toBottomOf="@+id/raiz"
+            app:srcCompat="@drawable/ic_arrow_forward_black_24dp" />
+
+        <Button
+            android:id="@+id/BT_ADIICIONAR"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:layout_marginTop="8dp"
+            android:backgroundTint="@android:color/holo_green_dark"
+            android:onClick="insere"
+            android:text="ADICIONAR"
+            android:textColor="@android:color/background_light"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/BT_BUSCAR"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:backgroundTint="@color/colorPrimaryDark"
+            android:onClick="buscar"
+            android:text="BUSCAR"
+            android:textColor="@android:color/background_light"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </android.support.constraint.ConstraintLayout>
+
+</android.support.constraint.ConstraintLayout>

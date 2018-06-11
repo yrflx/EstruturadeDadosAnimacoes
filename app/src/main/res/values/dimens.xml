@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="dim_item">80dp</dimen>
+    <dimen name="dim_fila_height">50dp</dimen>
+    <dimen name="dim_fila_width">80dp</dimen>
+    <dimen name="dim_item_pilha" >28dp</dimen>
+    <dimen name="dim_item_lse" >70dp</dimen>
+
+    <dimen name="elevation_fila" >4dp</dimen>
+
+
+
+</resources>

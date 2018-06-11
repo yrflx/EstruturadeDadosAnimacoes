@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/darker_gray"
+    tools:context="com.example.yurif.estruturadedados_animacoes.PilhaActivity">
+
+    <GridLayout
+        android:id="@+id/estrutura_grid"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:background="@color/colorPrimaryDark"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button_remover">
+
+
+        <TextView
+            android:id="@+id/pos1"
+            android:layout_width="@dimen/dim_item"
+            android:layout_height="@dimen/dim_item_pilha"
+            android:layout_column="0"
+            android:layout_gravity="top|left"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="10dp"
+            android:layout_row="9"
+            android:background="@color/colorVazio"
+            android:gravity="center"
+            android:text="pos1"
+            android:textAlignment="center"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/pos2"
+            android:layout_width="@dimen/dim_item"
+            android:layout_height="@dimen/dim_item_pilha"
+            android:layout_column="0"
+            android:layout_gravity="top|left"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="10dp"
+            android:layout_row="8"
+            android:background="@color/colorVazio"
+            android:gravity="center"
+            android:text="pos2"
+            android:textAlignment="center"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/pos3"
+            android:layout_width="@dimen/dim_item"
+            android:layout_height="@dimen/dim_item_pilha"
+            android:layout_column="0"
+            android:layout_gravity="top|left"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="10dp"
+
+            android:layout_row="7"
+            android:background="@color/colorVazio"
+            android:gravity="center"
+            android:text="pos3"
+            android:textAlignment="center"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/pos4"
+            android:layout_width="@dimen/dim_item"
+            android:layout_height="@dimen/dim_item_pilha"
+            android:layout_column="0"
+            android:layout_gravity="top|left"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="10dp"
+            android:layout_row="6"
+            android:background="@color/colorVazio"
+            android:gravity="center"
+            android:text="pos4"
+            android:textAlignment="center"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/pos5"
+            android:layout_width="@dimen/dim_item"
+            android:layout_height="@dimen/dim_item_pilha"
+            android:layout_column="0"
+            android:layout_gravity="top|left"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="10dp"
+            android:layout_row="5"
+            android:background="@color/colorVazio"
+            android:gravity="center"
+            android:text="pos5"
+            android:textAlignment="center"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/pos6"
+            android:layout_width="@dimen/dim_item"
+            android:layout_height="@dimen/dim_item_pilha"
+            android:layout_column="0"
+            android:layout_gravity="top|left"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="10dp"
+
+            android:layout_row="4"
+            android:background="@color/colorVazio"
+            android:gravity="center"
+            android:text="pos6"
+            android:textAlignment="center"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/pos7"
+            android:layout_width="@dimen/dim_item"
+            android:layout_height="@dimen/dim_item_pilha"
+            android:layout_column="0"
+            android:layout_gravity="top|left"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="10dp"
+
+            android:layout_row="3"
+            android:background="@color/colorVazio"
+            android:gravity="center"
+            android:text="pos7"
+            android:textAlignment="center"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/pos8"
+            android:layout_width="@dimen/dim_item"
+            android:layout_height="@dimen/dim_item_pilha"
+            android:layout_column="0"
+            android:layout_gravity="top|left"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="10dp"
+
+            android:layout_row="2"
+            android:background="@color/colorVazio"
+            android:gravity="center"
+            android:text="pos8"
+            android:textAlignment="center"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/pos9"
+            android:layout_width="@dimen/dim_item"
+            android:layout_height="@dimen/dim_item_pilha"
+            android:layout_column="0"
+            android:layout_gravity="top|left"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="10dp"
+
+            android:layout_row="1"
+            android:background="@color/colorVazio"
+            android:gravity="center"
+            android:text="pos9"
+            android:textAlignment="center"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/pos10"
+            android:layout_width="@dimen/dim_item"
+            android:layout_height="@dimen/dim_item_pilha"
+            android:layout_column="0"
+            android:layout_gravity="center"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="10dp"
+            android:layout_row="0"
+            android:background="@color/colorVazio"
+            android:gravity="center"
+            android:text="pos10"
+            android:textSize="20sp" />
+    </GridLayout>
+
+    <Button
+        android:id="@+id/button_remover"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:backgroundTint="@android:color/holo_red_dark"
+        android:text="REMOVER"
+        android:textColor="@android:color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/button"
+        tools:layout_editor_absoluteY="8dp" />
+
+    <Button
+        android:id="@+id/button_adicionar"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:backgroundTint="@android:color/holo_green_light"
+        android:text="ADICIONAR"
+        android:textColor="@android:color/white"
+        app:layout_constraintEnd_toStartOf="@+id/button"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="8dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:backgroundTint="@color/colorPrimaryDark"
+        android:onClick="buscar"
+        android:text="BUSCAR"
+        android:textColor="@android:color/background_light"
+        app:layout_constraintEnd_toStartOf="@+id/button_remover"
+        app:layout_constraintStart_toEndOf="@+id/button_adicionar"
+        tools:layout_editor_absoluteY="8dp" />
+
+
+</android.support.constraint.ConstraintLayout>
