@@ -8,6 +8,7 @@ Estruturas apresentadas:
 - Lista Encadeada;
 - Pilha;
 - Filas;
-- Arvore;
+- Arvore
 
-![apk](https://github.com/yrflx/EstruturadeDadosAnimacoes/blob/master/estruturas.apk "Apk Download")
+[Download APK](https://github.com/yrflx/EstruturadeDadosAnimacoes/blob/master/estruturas.apk)
+
